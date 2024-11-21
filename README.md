@@ -1,3 +1,6 @@
+![Unicon](https://github.com/user-attachments/assets/13ef809b-59c9-43b3-b823-15df6b14b2b1)
+
+
 # Unicon for Statamic
 
 [Unicon 🦄](https://unicon.rocks/) is a package for [Laravel](https://laravel.com/) that enables seamless, on-demand integration of over 200,000 icons from the Iconify API, with caching for optimized performance.
