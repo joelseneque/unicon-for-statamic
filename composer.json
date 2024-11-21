@@ -1,0 +1,35 @@
+{
+    "name": "palmiak/unicon",
+    "autoload": {
+        "psr-4": {
+            "Palmiak\\Unicon\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Palmiak\\Unicon\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "statamic/cms": "^5.0",
+        "hedger/unicon": "^0.3.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pixelfear/composer-dist-plugin": true
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Unicon for Statamic",
+            "description": "Unicon for Statamic allows using Unicon icons in your Statamic projects."
+        },
+        "laravel": {
+            "providers": [
+                "Palmiak\\Unicon\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
