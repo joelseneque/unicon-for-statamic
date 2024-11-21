@@ -15,7 +15,7 @@ It allows you to install **Unicon** inside of your Statamic projects and adds a 
 Just run the following command from your project root:
 
 ``` bash
-composer require palmiak/unicon
+composer require palmiak/unicon-for-statamic
 ```
 
 You can optionally publish the configuration file by running:
