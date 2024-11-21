@@ -1,5 +1,5 @@
 {
-    "name": "palmiak/unicon",
+    "name": "palmiak/unicon-for-statamic",
     "autoload": {
         "psr-4": {
             "Palmiak\\Unicon\\": "src"
