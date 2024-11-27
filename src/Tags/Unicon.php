@@ -10,11 +10,14 @@ class Unicon extends Tags
     /**
      * The {{ unicon }} tag.
      *
-     * @return string|array
+     * @return string|bool
      */
     public function index()
     {
-        $icon = icon($this->params->get('icon'));
+        if ($this->isAntlersBladeComponent()) {
+            return false;
+        }
+        $icon = icon($this->params->get('name'));
 
         if($this->params->get('class')) {
             $classes = $this->params->get('class') . ' ' . config('unicon.defaults.class');
